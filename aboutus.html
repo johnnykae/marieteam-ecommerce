@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversion Experts | About Us</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css"
+        integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKhXGc/ZG5REYTT6ltKfExEei/Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="site-header">
+        <div class="wrap header-row">
+            <a class="brand" href="index.html">
+                <img src="./marieteam logo.png" class="logo-mark">
+                <span class="brand-name">Conversion Experts</span>
+            </a>
+
+            <nav class="nav">
+                <a href="index.html" data-key="nav.home">Home</a>
+                <a href="aboutus.html" data-key="nav.proof" class="active">About Us</a>
+                <a href="team.html" data-key="nav.team">Our Team</a>
+                <a href="proof.html" data-key="nav.proof">Proof</a>
+                <a href="index.html#contact" data-key="nav.contact">Request Audit</a>
+                <a href="#contact" data-key="contact.html">Contact</a>
+            </nav>
+
+            <div class="header-controls">
+                <select id="langSwitcherTeam" aria-label="Select language"></select>
+                <button id="modeToggleTeam" class="icon-btn" aria-label="Toggle theme">🌙</button>
+                <button id="mobileToggleTeam" class="icon-btn mobile-only" aria-label="Open menu">☰</button>
+            </div>
+        </div>
+        <div id="mobileMenuTeam" class="mobile-menu hidden">
+            <a href="index.html" data-key="nav.home">Home</a>
+            <a href="aboutus.html" data-key="nav.proof" class="active">About Us</a>
+            <a href="team.html" data-key="nav.team">Our Team</a>
+            <a href="proof.html" data-key="nav.proof">Proof</a>
+            <a href="index.html#contact" data-key="nav.contact">Request Audit</a>
+            <a href="#contact" data-key="contact.html">Contact</a>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero about-hero">
+        <div class="hero-content">
+            <h1 data-key="about.title">About Us</h1>
+            <p data-key="about.subtitle">We’re a team of conversion specialists dedicated to helping Shopify stores
+                scale without leaking revenue.</p>
+        </div>
+    </section>
+
+    <!-- Mission & Story -->
+    <section class="about-mission">
+        <div class="about-container">
+            <div class="about-text">
+                <h2 data-key="about.missionTitle">Our Mission</h2>
+                <p data-key="about.missionText">
+                    We exist to transform underperforming Shopify stores into high-converting sales engines.
+                    By blending user experience, CRO frameworks, and data-driven design, we unlock
+                    untapped revenue and customer loyalty for our partners.
+                </p>
+
+                <h2 data-key="about.storyTitle">Our Story</h2>
+                <p data-key="about.storyText">
+                    Marie Team was founded with a clear mission: to simplify eCommerce and help brands unlock consistent
+                    growth. We saw too many stores struggling with poor search visibility, missing trust signals, and
+                    friction-filled checkouts that cost them sales. Our team set out to change that. Today, we work
+                    alongside ambitious brands as strategic partners — optimizing search, streamlining payments,
+                    improving trust cues, and integrating tools that drive conversions. With Marie Team, eCommerce
+                    becomes smarter, smoother, and scalable.
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="./marieteam logo.png" alt="Our Team Working Together">
+            </div>
+        </div>
+    </section>
+
+    <!-- Values -->
+    <section class="about-values">
+        <h2 data-key="about.valuesTitle">Our Core Values</h2>
+        <div class="values-grid">
+            <div class="value-card">
+                <i class="fas fa-bullseye"></i>
+                <h3 data-key="about.value1Title">Precision</h3>
+                <p data-key="about.value1Text">Every optimization we recommend is backed by data, not assumptions.</p>
+            </div>
+            <div class="value-card">
+                <i class="fas fa-handshake"></i>
+                <h3 data-key="about.value2Title">Partnership</h3>
+                <p data-key="about.value2Text">We work as an extension of your team, not just another agency.</p>
+            </div>
+            <div class="value-card">
+                <i class="fas fa-rocket"></i>
+                <h3 data-key="about.value3Title">Growth</h3>
+                <p data-key="about.value3Text">We aim for scalable results that fuel long-term success, not quick wins.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="wrap footer-grid">
+            <div class="footer-brand">
+                <div class="footer-logo">Conversion Team</div>
+                <p class="muted">We stop Shopify stores from leaking revenue.</p>
+                <small>© <span id="currentYear"></span> Conversion Team. All rights reserved.</small>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick links</h4>
+                <a href="index.html">Home</a>
+                <a href="aboutus.html" data-key="nav.proof">About Us</a>
+                <a href="team.html">Our Team</a>
+                <a href="proof.html">Proof</a>
+                <a href="contact.html#contact">Request Audit</a>
+                <a href="contact.html" data-key="nav.proof">Contact</a>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <a href="mailto:marieteam.ecommerce@gmail.com">Marieteam Mail</a>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=61580540453205" aria-label="Facebook"><i
+                            class="bx bxl-facebook-square"></i></a>
+                    <a href="https://tiktok.com/@johndaveshopify" aria-label="Facebook"><i
+                            class="bx bxl-tiktok"></i></a>
+                    <a href="https://wa.me/+16139272170?text=Hi,contacting from Marie Team Website"
+                        aria-label="Whatsapp"><i class="bx bxl-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="wrap">
+                <small class="muted">Independent Shopify Optimization Experts</small>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
