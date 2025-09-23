@@ -61,7 +61,7 @@
         });
 
         if (response.ok) {
-            alert("✅ Thanks — we received your audit request! \n Our team would get back to you through the email you provided.");
+            alert("✅ Thanks — we received your audit request! Our team would get back to you through the email you provided.");
             form.reset();
         } else {
             alert("❌ Something went wrong. Please try again.");
@@ -172,3 +172,4 @@ document.querySelectorAll("a").forEach(e => {
     })
 
 })
+
