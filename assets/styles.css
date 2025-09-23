@@ -149,7 +149,7 @@ body {
 
 #langSwitcher{
     display: none;
-
+}
 /* HERO */
 .hero {
     padding: 68px 0;
@@ -724,5 +724,6 @@ footer a:hover {
     transform: translateY(-6px);
 
 }
+
 
 
