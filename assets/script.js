@@ -61,7 +61,7 @@
         });
 
         if (response.ok) {
-            alert("✅ Thanks — we received your audit request!");
+            alert("✅ Thanks — we received your audit request! \n Our team would get back to you through the email you provided.");
             form.reset();
         } else {
             alert("❌ Something went wrong. Please try again.");
@@ -96,9 +96,7 @@
     const waBtn = byId('whatsAppBtn');
     if (waBtn) {
         waBtn.addEventListener('click', () => {
-            const phone = '+16139272170';
-            const url = 'https://wa.me/' + phone.replace(/\D/g, '') + '?text=' + encodeURIComponent('Hi — I would like a free audit. Here is my store: ' + (byId('storeUrl')?.value || ''));
-            window.open(url, '_blank');
+            location.href("https://wa.me/+16139272170");
         });
     }
 
@@ -172,4 +170,5 @@ document.querySelectorAll("a").forEach(e => {
     e.addEventListener("click", () => {
         e.target = "_self";
     })
+
 })
