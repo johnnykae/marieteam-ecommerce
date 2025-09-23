@@ -147,6 +147,8 @@ body {
     opacity: 0.8;
 }
 
+#langSwitcher{
+    display: none;
 
 /* HERO */
 .hero {
@@ -722,4 +724,5 @@ footer a:hover {
     transform: translateY(-6px);
 
 }
+
 
