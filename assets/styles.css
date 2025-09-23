@@ -685,10 +685,7 @@ footer a:hover {
     .cta-row a {
         font-size: small;
     }
-}
-
-@media (max-width:380px) {
-    .mobile-menu {
+        .mobile-menu {
         position: fixed;
         right: 0;
         display: flex;
@@ -721,4 +718,5 @@ footer a:hover {
 
 .card:hover {
     transform: translateY(-6px);
+
 }
