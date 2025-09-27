@@ -280,18 +280,6 @@ section.section {
     padding-bottom: 25px;
 }
 
-.proof-card a {
-    text-decoration: none;
-    color: var(--text);
-}
-.proof-card a:hover :not(img) {
-    text-decoration: underline;
-}
-.proof-card:hover {
-    background: var(--glass);
-    transform: translateY(20px);
-}
-
 /* PROCESS */
 .process-grid {
     display: flex;
@@ -467,6 +455,17 @@ section.section {
     object-fit: cover;
     object-position: top;
     transition: transform 0.45s;
+}
+.proof-card a {
+    text-decoration: none;
+    color: var(--text);
+}
+.proof-card a:hover:not(img) {
+    text-decoration: underline;
+}
+.proof-card:hover {
+    background: var(--glass);
+    transform: translateY(20px);
 }
 
 .profile:hover .avatar img {
@@ -732,6 +731,7 @@ footer a:hover {
     transform: translateY(-6px);
 
 }
+
 
 
 
