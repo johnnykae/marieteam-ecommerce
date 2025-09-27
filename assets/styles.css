@@ -280,6 +280,13 @@ section.section {
     padding-bottom: 25px;
 }
 
+.proof-card a {
+    text-decoration: none;
+    color: var(--text);
+}
+.proof-card a:hover :not(img) {
+    text-decoration: underline;
+}
 .proof-card:hover {
     background: var(--glass);
     transform: translateY(20px);
@@ -724,6 +731,7 @@ footer a:hover {
     transform: translateY(-6px);
 
 }
+
 
 
 
