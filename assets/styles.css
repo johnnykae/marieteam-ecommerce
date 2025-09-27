@@ -131,6 +131,9 @@ body {
     background: rgba(7, 16, 34, 0.95);
 }
 
+.mobile-menu a{
+    color: var(--text):
+}
 .mobile-menu.hidden {
     display: none;
     opacity: 0;
@@ -731,6 +734,7 @@ footer a:hover {
     transform: translateY(-6px);
 
 }
+
 
 
 
