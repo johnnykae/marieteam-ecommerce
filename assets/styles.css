@@ -457,6 +457,7 @@ section.section {
 
 .proof-card .wall {
     width: auto;
+    height:200px;
     padding: 10px;
 }
 
@@ -731,6 +732,7 @@ footer a:hover {
     transform: translateY(-6px);
 
 }
+
 
 
 
