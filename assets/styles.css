@@ -707,6 +707,7 @@ footer a:hover {
         width: 100%;
         text-align: left;
         padding: 10px;
+        color: var(--text);
     }
 
     .mobile-menu a:hover {
@@ -734,6 +735,7 @@ footer a:hover {
     transform: translateY(-6px);
 
 }
+
 
 
 
