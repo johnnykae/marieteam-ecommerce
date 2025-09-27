@@ -148,6 +148,7 @@ body {
 
 .nav a:hover {
     opacity: 0.8;
+    
 }
 
 select#langSwitcherTeam{
@@ -712,6 +713,7 @@ footer a:hover {
 
     .mobile-menu a:hover {
         background: var(--muted);
+        color:white;
     }
 }
 
@@ -735,6 +737,7 @@ footer a:hover {
     transform: translateY(-6px);
 
 }
+
 
 
 
