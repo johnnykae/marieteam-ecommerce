@@ -443,13 +443,13 @@ section.section {
     text-align: center;
 }
 
-.proof-card .wall {
+.proof-card a .wall {
     width: auto;
     height:200px;
     padding: 10px;
 }
 
-.proof-card .wall img {
+.proof-card a .wall img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -731,6 +731,7 @@ footer a:hover {
     transform: translateY(-6px);
 
 }
+
 
 
 
